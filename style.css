@@ -51,7 +51,7 @@ nav {
 }
 
 .nav-container ul .nav-link:hover {
-border-bottom: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .nav-container ul .nav-link:last-child {
@@ -62,20 +62,20 @@ main {
     width: 100%;
     height: calc(100% - 90px);
     /*background-color: #FFDD55;*/
-    background-image: url("/image/background\ image.jpg");
-    background-size: 100% 100%; 
+    background-image: url("./image/arkaplan.jpg");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: left top;
     padding: 75px 150px 75px 30px;
 }
 
-main .main-container{
+main .main-container {
     width: 100%;
     height: 100%;
     display: flex;
 }
 
-main .main-container .main-infos-content{
+main .main-container .main-infos-content {
     width: calc(100% - 500px);
     height: 100%;
     display: flex;
@@ -83,30 +83,31 @@ main .main-container .main-infos-content{
     justify-content: center;
 }
 
-main .main-container .main-infos-content .text-content{
+main .main-container .main-infos-content .text-content {
     margin-bottom: 50px;
     margin-top: -200px;
 }
-main .main-container .main-infos-content .text-content h2{
+
+main .main-container .main-infos-content .text-content h2 {
     margin-bottom: 12px;
     font-size: 36px;
     font-weight: 700;
 }
 
-main .main-container .main-infos-content .text-content span{
+main .main-container .main-infos-content .text-content span {
     color: #0b9bc7;
     font-size: 28px;
     font-weight: 500;
     letter-spacing: -1px;
 }
 
-main .main-container .main-infos-content .button-content{
+main .main-container .main-infos-content .button-content {
     display: flex;
     gap: 20px;
 }
 
-main .main-container .main-infos-content .button-content button{
-    cursor:pointer;
+main .main-container .main-infos-content .button-content button {
+    cursor: pointer;
     padding: 10px 34px;
     border-radius: 10px;
     background-color: black;
@@ -117,21 +118,22 @@ main .main-container .main-infos-content .button-content button{
     transition: .3s all ease-in-out;
 }
 
-main .main-container .main-infos-content .button-content button:hover{
+main .main-container .main-infos-content .button-content button:hover {
     box-shadow: -4px -4px 0px 0px #eeb771bf;
     animation: shake .3s 2 linear;
 
 }
 
-main .main-container .main-image{
+main .main-container .main-image {
     width: 500px;
 }
 
-.social-container{
+.social-container {
     position: absolute;
     right: 25px;
     top: 40%;
 }
+
 .social-container a .social-item {
     font-size: 30px;
     background-color: #fff;
@@ -144,42 +146,46 @@ main .main-container .main-image{
     margin-bottom: 5px;
     transition: .2s all ease-in-out;
 }
-.social-container a .social-item.instagram:hover{
-    background-color: #e4405f ;
+
+.social-container a .social-item.instagram:hover {
+    background-color: #e4405f;
     color: white;
 }
-.social-container a .social-item.twitter:hover{
-    background-color: #1da1f2 ;
+
+.social-container a .social-item.twitter:hover {
+    background-color: #1da1f2;
     color: white;
 }
-.social-container a .social-item.github:hover{
-    background-color: #171515 ;
+
+.social-container a .social-item.github:hover {
+    background-color: #171515;
     color: white;
 }
-.social-container a .social-item.linkedin:hover{
+
+.social-container a .social-item.linkedin:hover {
     background-color: #0a66c2;
     color: white;
 }
 
 @keyframes shake {
 
-    0%{
+    0% {
         transform: rotate(0deg);
     }
 
-    25%{
+    25% {
         transform: rotate(10deg);
     }
 
-    50%{
+    50% {
         transform: rotate(0deg);
     }
 
-    75%{
+    75% {
         transform: rotate(-10deg);
     }
 
-    100%{
+    100% {
         transform: rotate(0deg);
     }
 }
